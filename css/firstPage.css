@@ -1,0 +1,71 @@
+*{padding: 0; margin: 0; list-style: none; text-decoration: none; font-family: '微软雅黑';}
+body{padding: 60px 100px 0 100px; }
+#toTop{background:rgba(0,0,0,0.2); width:46px;
+height:46px;position: absolute;right:100px;bottom: 0;
+position:fixed; _position:absolute;cursor: pointer;
+z-index:9999999999999999;border-radius:20%;display: none;}
+#toTop img{border-radius:20%;}
+#head{height: 105px;width: 1148px;background: #26292c; z-index:999;}
+#head2{height: 100px; width: 1148px; display: none; z-index: 5;}
+#logo{float:left;height: 105px;width: 180px;background: #83d6df;color: #fff;text-align: center;font-size: 45px;
+	line-height: 2em;}
+#contain{position: relative;height: 650px; width: 1148px; overflow: hidden;}
+#picture-first{background:url(../img/lava_teaser1.jpg) no-repeat;background-size:1148px 650px; position: relative; 
+	padding: 0; height: 550px; width:1148px;}
+#picture-first{padding: 100px 0px 0px 0px;float: left;}	
+#map{background: url(../img/lava_teaser2.jpg) no-repeat; 
+	 height:650px;width:1148px; float: left;}
+#map div{width: 1000px;height: 300px;margin: 90px auto; text-align: center;}
+#map p{color: #fff; font-size:30px;font-family:'微软雅黑';margin-top: 20px;font-weight: normal;}
+#picture-third{background: url(../img/lava_teaser3.jpg) no-repeat; 
+	 height:650px; float: left;width:1148px;}
+#containPic{height:650px; position: absolute;top: 0;left:0; }
+#containPic li{background-size: 1148px 650px;}
+#firstPage{}
+#allmap {width: 100%;height: 90%;overflow: hidden;margin-top:10px;font-family:"微软雅黑";top: -10px;}
+#r-result{width:300px; margin-left:450px;}
+#kuangJia{position: absolute;top:60px;}
+body{height: 2155px; position: relative;}
+
+html{background: url(img/gradient1.svg) 75% 110% no-repeat fixed,
+ url(img/gradient2.svg) -20% -10% no-repeat fixed,
+ url(img/gradient3.svg) 120% 0% no-repeat fixed,
+ linear-gradient(130deg, rgba(75, 60, 80, 0) 60%, #4a434f 100%) 0 0 fixed,
+ linear-gradient(to bottom, #83a7ab 0%, #23263c 100%) 0 0 fixed}
+
+
+
+
+
+
+#nav{padding:10px 60px 50px 252px; display:inline-block;}
+#nav ul{position: relative; width: 632px; height: 73px;}
+#nav ul li{display: inline-block; margin:20px;  font-size: 26px;  z-index: 2; width:98px; height: 35px; 
+	position:relative;}
+#nav ul li.navBox{z-index: 1;background:#3e4145;position: absolute; left: 0; top: 0;border-radius: 6%; 
+	border: 1px solid #fff;}
+#nav ul li a{color: #8b8e94; z-index: 3; text-align: center; margin: 0 auto; display: block;}
+
+
+#conCen{width: 400px;height: 370px; position: absolute; left: 50%; margin-left: -200px;}
+#imgBox{width: 160px; height: 170px; border-radius: 50%;overflow: hidden;z-index: 2; border: 1px solid #fff;
+	background-image: url(../img/beautifulgirl.jpg); background-position: -8px -60px; margin: 0 auto;}
+#conCen p{font-size: 40px ;color:#fff;margin:40px auto; width: 320px;}
+#conCen p span{opacity: 0; white-space:pre;}
+#conCen a{color: #fff;width: 200px; background:#83d6df; border-radius: 50px;vertical-align: middle;
+ font-size: 20px; display: inline-block; text-align: center; line-height: 52px; margin-top:14px;
+ margin-left: 100px; }
+#conCen a:hover{background: #3e4145;}
+#con-foot{z-index:3; position: absolute;bottom: 25px;left:50%;margin-left:-60px; width:120px;}
+#conFootUl{left: 50%; margin-left: -57px; width:115px; position: relative;}
+#conFootUl li{ display: inline-block; margin-left: 8px; padding: 5px; height:18px; width:17px;border-radius: 50%;
+background: rgba(0, 0, 0, 0.2);cursor: pointer;}
+#conFootUl li span{display: inline-block; width: 13px; height: 13px; border: 2px solid #fff; 
+	 border-radius: 50%;}
+#conFootUl li span{background: #fff;}
+
+
+
+
+
+

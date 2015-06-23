@@ -3,10 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Document</title>
-<link rel="stylesheet" type="text/css" href="css/firstPage.css">
-<link rel="stylesheet" type="text/css" href="css/skill.css">
 <link rel="stylesheet" type="text/css" href="css/case.css">
-<link rel="stylesheet" type="text/css" href="contact.css">
 <link rel="stylesheet" type="text/css" href="css/index11.css">
 <script type="text/javascript" src="js/calendar.js"></script>
 <script type="text/javascript" src="js/move.js"></script>
@@ -20,11 +17,6 @@
 	window.onload=function(){
 		myCalendar('calendar');
 		myTieBaShi();
-		myStartMove();
-		//autoTab();
-		//duangMove();
-		paoMD();
-		xiDingT();
 		showFQ();
 		zouYiGe();
 		photoWall();
@@ -33,116 +25,15 @@
 		menu();
 		circle();
 		Dtran();
-		wangYi();
 		//init();
-		iconTrans();
 		myWish();
 		baidu();
-		toTop();
 		caseClick();
-		KJ();
 	};
-
-	$(function(){
-		flip($("#skillJ")[0],'flip','1.5s','unflip','0.7s');
-		flip($("#skillH")[0],'flip','1.5s','unflip','0.7s');
-		flip($("#skillC")[0],'flip','1.5s','unflip','0.7s');
-	});
-	
 </script>
 </head>
 <body>
-	<!--firstPage-->
-	
-	<div id="toTop"><img src="img/toTop.png"></div>
-	
-	
-	<div id="firstPage">
-		<div id="head">
-			<div id="logo">
-				<em>Cherish</em>
-			</div>
-			<nav id="nav">
-				<ul>
-					<li class="lion" id="nav1"><a href="javascript:;">Home</a></li>
-					<li id="nav2"><a href="skill.html">Skill</a></li>
-					<li id="nav3"><a href="case.html">Case</a></li>
-					<li id="nav4"><a href="contact.html">Contact</a></li>
-					<li class="navBox"></li>
-				</ul>
-			</nav>
-		</div>
-		<div id="head2"></div>
-		
-		<div id="contain">
-			<ul id="containPic">
-				<li id="picture-first" style="display:block;">
-					<div id="conCen">
-						<div id="imgBox"></div>
-						<p></p>
-						<a href="skill.html">KNOW&nbspMORE</a>
-					</div>
-				</li>
-				<li id="map" >
-					<div>
-						<p>我的名字：李姝楠</p>
-						<p>我希望：可以制作令人视觉舒适又酷炫的页面</p>
-						<p>我的特点：认真负责&nbsp;&nbsp;聪明伶俐&nbsp;&nbsp;温柔体贴</p>
-						<p>我的爱好：音乐&nbsp;&nbsp;动漫&nbsp;&nbsp;瑜伽</p>
-						<p>也许我们还可以是生活中的小伙伴&nbsp;&nbsp;点击Contact快快联系我吧</p>
-
-					</div>
-					
-				</li>
-				
-			</ul>
-			
-			<div id="con-foot">
-				<ul id="conFootUl">
-					<li class="active"><span></span></li>
-					<li><span></span></li>
-					
-				</ul>
-			</div>
-			
-		</div>
-	</div>
-	<!--firstPage-->
-
-
-	<!--skill-->
-		<div id="skill">
-			<div id="skill-right">
-				<p id="skiTxt">My&nbsp&nbspProfessional&nbsp&nbspSkills</p>
-				<div id="skillList">
-					<ul>
-						<li id="skillJ"><span>Javascript</span><p></p></li>
-						<li id="skillH"><span>Html5</span><p></p></li>
-						<li id="skillC"><span>Css3</span><p></p></li>
-					</ul>
-				</div>
-				
-				<a href="case.html">SCROLL&nbspDOWN</a>
-			</div>
-		</div>
-			<!--<div id="skill-left">
-				<div id="calendar"></div>
-				<ul id="tieBaShiZ">
-					<li><img src="img/num.png"/></li>
-					<li><img src="img/num.png" /></li>
-				    <li>:</li>
-					<li><img src="img/num.png" /></li>
-					<li><img src="img/num.png" /></li>
-				    <li>:</li>
-					<li><img src="img/num.png" /></li>
-					<li><img src="img/num.png" /></li>
-				</ul>
-			</div>-->
-	<!--skill-->
-
-	
-	<!--case-->
-		<div id="case">
+	<div id="case" style="margin:60px auto;">
 			
 			<a id="casePre" href="javascript:;" class="caseA">prev</a>
 			<a id="caseNext" href="javascript:;" class="caseA">next</a>
@@ -355,21 +246,5 @@
 				</div>
 			</div>
 		</div>
-	<!--case-->
-
-
-	<!--contact-->
-		<div id="contact">
-			<h1>Connect&nbsp&nbspWith&nbsp&nbspMe</h1>
-			<div id="tubiao">
-				<i class="iconfont iconFirst">&#x3436;</i>
-				<i class="iconfont">&#xe603;</i>
-				<i class="iconfont">&#xe604;</i>
-				<i class="iconfont">&#xe617;</i>
-			</div>
-			<div id="tubiaoInner">北京市昌平区平西府</div>
-		</div>
-	<!--contact-->
-	
 </body>
 </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" type="text/css" href="css/skill.css">
+<script type="text/javascript" src="js/move.js"></script>
+<script type="text/javascript" src="js/firstPage.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+	$(function(){
+		flip($("#skillJ")[0],'flip','1.5s','unflip','0.7s');
+		flip($("#skillH")[0],'flip','1.5s','unflip','0.7s');
+		flip($("#skillC")[0],'flip','1.5s','unflip','0.7s');
+	});
+</script>
+</head>
+<body>
+	<div id="skill" style="margin:60px auto;">
+		<div id="skill-right">
+			<p id="skiTxt">My&nbsp&nbspProfessional&nbsp&nbspSkills</p>
+			<div id="skillList">
+				<ul>
+					<li id="skillJ"><span>Javascript</span><p></p></li>
+					<li id="skillH"><span>Html5</span><p></p></li>
+					<li id="skillC"><span>Css3</span><p></p></li>
+				</ul>
+			</div>
+			
+			<a href="case.html">SCROLL&nbspDOWN</a>
+		</div>
+	</div>
+</body>
+</html>

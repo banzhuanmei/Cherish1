@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#tabPic img{
+	position: relative;
+	width: 760px;
+}
+#nav ul li img{
+	position: relative;
+	top:15px;
+	margin-left: 10px;
+}
+#pic li{
+	float: left;
+	position:relative;
+}
+#pic li img{
+	width: 76px;
+	display: block;
+}
+.bigPic{
+	display: none;
+	position:relative;
+	width: 760px;
+}
+.tabSp{
+	height: 35px;
+	width: 100%;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	bottom: 3px;
+	color: #fff;
+	line-height: 30px;
+}
+#tabPic  span{
+	left: 20px;
+	position: absolute;
+}
+#pic span{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 72px;
+	height: 44px;
+	border: 2px solid #fff;
+	margin-left: 1px;
+}
+#pic .on span{
+	border:2px solid blue;
+	display: block;
+}
+.back{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 10px 0 0 8px;
+	cursor: pointer;
+	color:#8c8c8c;
+}
+.refresh{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 10px 0 0 8px;
+	cursor: pointer;
+}
+#nav{
+	width: 760px;
+	height: 40px;
+	background: #373634;
+	position: relative;
+}
+#nav li{
+	float: left;
+	padding:2px 11px; 
+}
+#nav a{
+	line-height: 36px;
+	height: 36px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color:#9b9b99;
+	font-weight: bold;
+}
+#nav a:hover{
+	color: red;
+}
+.serch{
+	position:absolute;
+	right: 20px;
+	top: 10px;
+}
+.inSer{
+	position: absolute;
+	right:20px;
+	top:1px; 
+	width: 144px;
+	height: 20px;
+	background:#191917;
+	color: #8c8c8c;
+	border:none;
+}
+.btnSer{
+	position: absolute;
+	right: 0px;
+	width: 20px;
+	height: 21px;
+	background: #000;
+	border:none;
+	display: none;
+}
